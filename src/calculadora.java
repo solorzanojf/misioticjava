@@ -9,5 +9,6 @@ public class calculadora {
         System.out.println(resta);
         System.out.println(multi);
         System.out.println(divi);
+        System.out.println("resultado de las operaciones entre 10 y 5");
     }
 }
