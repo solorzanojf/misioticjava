@@ -7,6 +7,7 @@ public class App {
         Scanner ingresar=new Scanner(System.in);
         String nombre = ingresar.nextLine();
         System.out.println("su nombre es "+nombre);
+        ingresar.close();
         
     }
 }

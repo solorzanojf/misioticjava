@@ -13,7 +13,7 @@ public class Calculadora {
             int numero1= scanner.nextInt();
             System.out.println("INGRESE EL SEGUNDO NUMERO ENTERO");
             int numero2= scanner.nextInt();
-            int resultado= 0;
+                        int resultado= 0;
         
             switch (operacion){
                 case 1:
@@ -30,10 +30,14 @@ public class Calculadora {
                     break;
                 /*default:
                     System.out.println("el tipo de operacion no es valido");*/
+                    
             }
             System.out.println(resultado);
+            scanner.close();
+
         }
-        System.out.println("el tipo de operacion no es valido");   
+        System.out.println("el tipo de operacion no es valido"); 
+      
     }
            
 }
